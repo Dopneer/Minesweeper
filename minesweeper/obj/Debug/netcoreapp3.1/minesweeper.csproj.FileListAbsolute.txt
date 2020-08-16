@@ -1,0 +1,12 @@
+/Users/michaelskirda/Projects/minesweeper/minesweeper/bin/Debug/netcoreapp3.1/minesweeper.deps.json
+/Users/michaelskirda/Projects/minesweeper/minesweeper/bin/Debug/netcoreapp3.1/minesweeper.runtimeconfig.json
+/Users/michaelskirda/Projects/minesweeper/minesweeper/bin/Debug/netcoreapp3.1/minesweeper.runtimeconfig.dev.json
+/Users/michaelskirda/Projects/minesweeper/minesweeper/bin/Debug/netcoreapp3.1/minesweeper.dll
+/Users/michaelskirda/Projects/minesweeper/minesweeper/bin/Debug/netcoreapp3.1/minesweeper.pdb
+/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/Debug/netcoreapp3.1/minesweeper.csprojAssemblyReference.cache
+/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/Debug/netcoreapp3.1/minesweeper.AssemblyInfoInputs.cache
+/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/Debug/netcoreapp3.1/minesweeper.AssemblyInfo.cs
+/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/Debug/netcoreapp3.1/minesweeper.csproj.CoreCompileInputs.cache
+/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/Debug/netcoreapp3.1/minesweeper.dll
+/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/Debug/netcoreapp3.1/minesweeper.pdb
+/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/Debug/netcoreapp3.1/minesweeper.genruntimeconfig.cache
