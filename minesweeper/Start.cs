@@ -105,7 +105,7 @@ namespace minesweeper
 
                 DrawField();
 
-                Console.SetCursorPosition(CursorX, CursorY);
+                Console.SetCursorPosition(CursorX * 2 + 1, CursorY);
                 Console.Write('#');
 
                 CursorControl();
@@ -123,7 +123,7 @@ namespace minesweeper
             {
                 for (int j = 0; j < SizeX; j++)
                 {
-                    Console.Write(GameField[i, j].Texture);
+                    Console.Write(" " + GameField[i, j].Texture);
                 }
                 Console.WriteLine();
             }
