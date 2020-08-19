@@ -19,6 +19,9 @@ namespace minesweeper
 
         public static Cell[,] GameField;
 
+        private static List<ConsoleKey> LastInput = new List<ConsoleKey>();
+        private static ConsoleKey[] Conamy = new ConsoleKey[] { ConsoleKey.UpArrow, ConsoleKey.UpArrow, ConsoleKey.DownArrow, ConsoleKey.DownArrow, ConsoleKey.LeftArrow, ConsoleKey.RightArrow, ConsoleKey.LeftArrow, ConsoleKey.RightArrow, ConsoleKey.B, ConsoleKey.A };
+
 
         private static Random random = new Random();
 
@@ -132,9 +135,62 @@ namespace minesweeper
 
         }
 
+        private static void OpenSecret()
+        {
+            for(int i = 0; i < GameField.GetLength(0); i++)
+            {
+                for(int j = 0; j < GameField.GetLength(1); j++)
+                {
+                    if(GameField[i, j].IsBomb)
+                    {
+                        GameField[i, j].Texture = '&';
+                    }
+                    else if(GameField[i, j].BombCount > 0)
+                    {
+                        GameField[i, j].Texture = GameField[i, j].BombCount.ToString()[0];
+                    }
+                    else
+                    {
+                        GameField[i, j].Texture = ' ';
+                    }
+                }
+            }
+
+            ActualMineCount = 0;
+            DrawField();
+
+        }
+
+        private static bool IsConamy()
+        {
+            for (int i = 0; i < LastInput.Count; i++)
+            {
+                if (LastInput[i] != Conamy[i])
+                {
+                    LastInput.Clear();
+                    return false;
+                }
+            }
+            if(LastInput.Count == Conamy.Length)
+            {
+                LastInput.Clear();
+                return true;
+            }
+            return false;
+        }
+
         private static void CursorControl()
         {
             ConsoleKeyInfo key = Console.ReadKey(true);
+
+            LastInput.Add(key.Key);
+
+            if(IsConamy())
+            {
+                OpenSecret();
+            }
+            
+
             switch (key.Key)
             {
                 case ConsoleKey.A:

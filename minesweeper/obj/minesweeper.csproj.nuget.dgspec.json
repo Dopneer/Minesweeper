@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michaelskirda/Projects/minesweeper/minesweeper/minesweeper.csproj": {}
+    "/Users/michaelskirda/Projects/Minesweeper/minesweeper/minesweeper.csproj": {}
   },
   "projects": {
-    "/Users/michaelskirda/Projects/minesweeper/minesweeper/minesweeper.csproj": {
+    "/Users/michaelskirda/Projects/Minesweeper/minesweeper/minesweeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaelskirda/Projects/minesweeper/minesweeper/minesweeper.csproj",
+        "projectUniqueName": "/Users/michaelskirda/Projects/Minesweeper/minesweeper/minesweeper.csproj",
         "projectName": "minesweeper",
-        "projectPath": "/Users/michaelskirda/Projects/minesweeper/minesweeper/minesweeper.csproj",
+        "projectPath": "/Users/michaelskirda/Projects/Minesweeper/minesweeper/minesweeper.csproj",
         "packagesPath": "/Users/michaelskirda/.nuget/packages/",
-        "outputPath": "/Users/michaelskirda/Projects/minesweeper/minesweeper/obj/",
+        "outputPath": "/Users/michaelskirda/Projects/Minesweeper/minesweeper/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
